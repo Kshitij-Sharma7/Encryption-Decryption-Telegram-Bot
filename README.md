@@ -11,44 +11,56 @@
   - It will look something like this: 
   <br>
   
-![Description_screen](res/Description.jpg)
-
+<!-- ![Description_screen](res/Description.jpg) -->
+<p align="center">
+<img src="res/Description.jpg"  width="300px" height="600px">
+</p>
   <br>
 
   - Pressing the start button results in this:
   <br>
 
-![Start_screen](res/Start.jpg)
-  
+<!-- ![Start_screen](res/Start.jpg) -->
+<p align="center">
+<img src="res/Start.jpg"  width="350px">
+</p>
   <br>
 
   - Entering a plain text will give an encryped message for the same:
   <br>
   
-![Encrypt_screen](res/Encrypt.jpg)
-
+<!-- ![Encrypt_screen](res/Encrypt.jpg) -->
+<p align="center">
+<img src="res/Encrypt.jpg"  width="350px">
+</p>
   <br>
 
   - Forwarding or copy/pasting the encrypted message and giving it to the bot gives back the original message:
   <br>
   
-![Decrypt_screen](res/Decrypt.jpg)
+<!-- ![Decrypt_screen](res/Decrypt.jpg) -->
   Congratulations! You were successful in encrypting and decrypting a message!
-  
+<p align="center">
+<img src="res/Decrypt.jpg"  width="350px">
+</p> 
   <br>
 
   - The bot also replies to some commands like /greet and /hello:
   <br>
   
-![Command_screen](res/Commands.jpg)
-  
+<!-- ![Command_screen](res/Commands.jpg) -->
+<p align="center">
+<img src="res/Commands.jpg"  width="350px">
+</p> 
   <br>
 
   - Note that the bot supports only plain text, so if a document/audio/photo/sticker is given to it, it responds by saying:
   <br>
   
-![Sticker_screen](res/Sticker.jpg) 
-
+<!-- ![Sticker_screen](res/Sticker.jpg)  -->
+<p align="center">
+<img src="res/Sticker.jpg"  width="350px">
+</p>
 - ### Implementation using python:
 
   - In the file [keep_alive.py](https://replit.com/@crkshitij7/Encryption-Decryption-Telegram-Bot#keep_alive.py):
