@@ -11,40 +11,40 @@
 
   - It will look something like this: 
   <br>
-  ![Description screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Description.jpg?raw=true "Description")
+  ![Description screen](res/Description.jpg "Description")
 
   <br>
 
   - Pressing the start button results in this:
   <br>
-  ![Start screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Start.jpg?raw=true "Start screen")
+  ![Start screen](res/Start.jpg "Start screen")
   
   <br>
 
   - Entering a plain text will give an encryped message for the same:
   <br>
-  ![Encrypt screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Encrypt.jpg?raw=true "Encrypt screen")
+  ![Encrypt screen](res/Encrypt.jpg "Encrypt screen")
 
   <br>
 
   - Forwarding or copy/pasting the encrypted message and giving it to the bot gives back the original message:
   <br>
-  ![Decrypt screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Decrypt.jpg?raw=true "Decrypt screen")
+  ![Decrypt screen](res/Decrypt.jpg "Decrypt screen")
   Congratulations! You were successful in encrypting and decrypting a message!
   
   <br>
 
   - The bot also replies to some commands like /greet and /hello:
   <br>
-  ![Command screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Commands.jpg?raw=true "Commands screen")
+  ![Command screen](res/Commands.jpg "Commands screen")
   
   <br>
 
   - Note that the bot supports only plain text, so if a document/audio/photo/sticker is given to it, it responds by saying:
   <br>
-  ![Sticker screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Sticker.jpg?raw=true "Sticker screen") 
+  ![Sticker screen](res/Sticker.jpg "Sticker screen") 
 
-- Implementation using python:
+- ### Implementation using python:
 
   - In the file [keep_alive.py](https://replit.com/@crkshitij7/Encryption-Decryption-Telegram-Bot#keep_alive.py):
 
