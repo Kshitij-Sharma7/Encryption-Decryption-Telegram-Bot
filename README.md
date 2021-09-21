@@ -61,6 +61,7 @@
 <p align="center">
 <img src="res/Sticker.jpg"  width="350px">
 </p>
+
 - ### Implementation using python:
 
   - In the file [keep_alive.py](https://replit.com/@crkshitij7/Encryption-Decryption-Telegram-Bot#keep_alive.py):
