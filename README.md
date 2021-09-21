@@ -64,7 +64,7 @@
 
 - ### Implementation using python:
 
-  - In the file [keep_alive.py](https://replit.com/@crkshitij7/Encryption-Decryption-Telegram-Bot#keep_alive.py):
+  - #### In the file [keep_alive.py](https://replit.com/@crkshitij7/Encryption-Decryption-Telegram-Bot#keep_alive.py):
 
   ``` python
 
@@ -88,7 +88,7 @@
   ``` 
   This piece of code creates a server using flask and creates a thread which will be used by [main.py](https://replit.com/@crkshitij7/Encryption-Decryption-Telegram-Bot#main.py) to run indefinitely.
   
-  - In the file [main.py](https://replit.com/@crkshitij7/Encryption-Decryption-Telegram-Bot#main.py), 
+  - #### In the file [main.py](https://replit.com/@crkshitij7/Encryption-Decryption-Telegram-Bot#main.py), 
   ```python
     import telebot
     import random
@@ -100,7 +100,7 @@
   ```
   Libraries telebot (from [pyTelegramAPI](https://github.com/eternnoir/pyTelegramBotAPI)), random, os are imported along with the [keep_alive.py](https://replit.com/@crkshitij7/Encryption-Decryption-Telegram-Bot#keep_alive.py) file. The bot API_KEY is hidden along with the seed from the general public (as anyone would be able to modify the bot).
 
-  - The encryption and decryption are handled by the following code:
+  - #### The encryption and decryption are handled by the following code:
   ```python
     def encrypt(msg):
     st=""
@@ -139,7 +139,7 @@
     keep_alive()
   ```
 
-  - The commands to the bot and its responses are controlled by the following code:
+  - #### The commands to the bot and its responses are controlled by the following code:
 
   ```python
     @bot.message_handler(commands=['start'])
@@ -155,7 +155,7 @@
         bot.reply_to(message,"Hey, how are you?")
   ```
 
-    - The rest of the code that takes in the string (plain text) from the user and responds to the message is:
+    - #### The rest of the code that takes in the string (plain text) from the user and responds to the message is:
 
     ```python
     @bot.message_handler(func=lambda m:True)
