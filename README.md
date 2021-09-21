@@ -132,7 +132,7 @@
 
   The send function takes the string given from the user to the bot as an input, and decides whether to call the encrypt method or decrypt method by looking at the first 2 letters of the string.
 
-  - The bot object initialization and the keep_alive method are given by:
+  - #### The bot object initialization and the keep_alive method are given by:
 
   ```python
     bot=telebot.TeleBot(API_KEY)
