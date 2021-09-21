@@ -10,38 +10,44 @@
 
   - It will look something like this: 
   <br>
-  ![Description_screen](res/Description.jpg)
+  
+![Description_screen](res/Description.jpg)
 
   <br>
 
   - Pressing the start button results in this:
   <br>
-  ![Start_screen](res/Start.jpg)
+
+![Start_screen](res/Start.jpg)
   
   <br>
 
   - Entering a plain text will give an encryped message for the same:
   <br>
-  ![Encrypt_screen](res/Encrypt.jpg)
+  
+![Encrypt_screen](res/Encrypt.jpg)
 
   <br>
 
   - Forwarding or copy/pasting the encrypted message and giving it to the bot gives back the original message:
   <br>
-  ![Decrypt_screen](res/Decrypt.jpg)
+  
+![Decrypt_screen](res/Decrypt.jpg)
   Congratulations! You were successful in encrypting and decrypting a message!
   
   <br>
 
   - The bot also replies to some commands like /greet and /hello:
   <br>
-  ![Command_screen](res/Commands.jpg)
+  
+![Command_screen](res/Commands.jpg)
   
   <br>
 
   - Note that the bot supports only plain text, so if a document/audio/photo/sticker is given to it, it responds by saying:
   <br>
-  ![Sticker_screen](res/Sticker.jpg) 
+  
+![Sticker_screen](res/Sticker.jpg) 
 
 - ### Implementation using python:
 
