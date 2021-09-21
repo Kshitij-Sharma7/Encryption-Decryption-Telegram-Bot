@@ -12,35 +12,35 @@
 
   - It will look something like this: 
   <br>
-  ![Description screen](res/Description.jpg "Description")
+  ![Description screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Description.jpg "Description")
 
   <br>
 
   - Pressing the start button results in this:
   <br>
-  ![Start screen](res/Start.jpg "Start screen")
+  ![Start screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Start.jpg "Start screen")
   
   <br>
 
   - Entering a plain text will give an encryped message for the same:
   <br>
-  ![Encrypt screen](res/Encrypt.jpg "Encrypt screen")
+  ![Encrypt screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Encrypt.jpg "Encrypt screen")
 
   <br>
 
   - Forwarding or copy/pasting the encrypted message and giving it to the bot gives back the original message:
   <br>
-  ![Decrypt screen](res/Decrypt.jpg "Decrypt screen")
+  ![Decrypt screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Decrypt.jpg "Decrypt screen")
   Congratulations! You were successful in encrypting and decrypting a message!
   
   <br>
 
   - The bot also replies to some commands like /greet and /hello:
   <br>
-  ![Command screen](res/Commands.jpg "Commands screen")
+  ![Command screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Commands.jpg "Commands screen")
   
   <br>
 
   - Note that the bot supports only plain text, so if a document/audio/photo/sticker is given to it, it responds by saying:
   <br>
-  ![Sticker screen](res/Sticker.jpg "Sticker screen") 
+  ![Sticker screen](https://github.com/Kshitij-Sharma7/Encryption-Decryption-Telegram-Bot/blob/master/res/Sticker.jpg "Sticker screen") 
