@@ -98,7 +98,7 @@
     API_KEY= os.environ['API_KEY']
     s= int(os.environ['n'])
   ```
-  Libraries telebot (from [pyTelegramAPI](https://github.com/eternnoir/pyTelegramBotAPI)), random, os are imported along with the [keep_alive.py](https://replit.com/@crkshitij7/Encryption-Decryption-Telegram-Bot#keep_alive.py) file. The bot API_KEY is hidden along with the seed from the general public (as anyone would be able to modify the bot).
+  Libraries telebot (from [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)), random, os are imported along with the [keep_alive.py](https://replit.com/@crkshitij7/Encryption-Decryption-Telegram-Bot#keep_alive.py) file. The bot API_KEY is hidden along with the seed from the general public (as anyone would be able to modify the bot).
 
   - #### The encryption and decryption are handled by the following code:
   ```python
