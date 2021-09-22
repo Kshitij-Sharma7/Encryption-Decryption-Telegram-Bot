@@ -76,10 +76,10 @@
     @app.route('/')
 
     def home():
-            return "Alive"
+        return "Alive"
 
     def run():
-            app.run(host='0.0.0.0',port=8080)
+        app.run(host='0.0.0.0',port=8080)
 
     def keep_alive():
         t=Thread(target=run)
@@ -103,28 +103,28 @@
   - #### The encryption and decryption are handled by the following code:
   ```python
     def encrypt(msg):
-    st=""
-    random.seed(s)
-    for i in msg:
-        key=random.randint(1,255)
-        st=st+hex(ord(i)^key)[2:].zfill(2)
-    return st
+        st=""
+        random.seed(s)
+        for i in msg:
+            key=random.randint(1,255)
+            st=st+hex(ord(i)^key)[2:].zfill(2)
+        return st
 
     def decrypt(msg):
-    res=''
-    random.seed(s)
-    for i in range(0,len(msg),2):
-        key=random.randint(1,255)
-        res=res+chr(int(msg[i]+msg[i+1],16)^key)
-    return res
+        res=''
+        random.seed(s)
+        for i in range(0,len(msg),2):
+            key=random.randint(1,255)
+            res=res+chr(int(msg[i]+msg[i+1],16)^key)
+        return res
 
     def send(msg):
-    if(msg[:2]!='0x'):
-        bi=encrypt(msg)
-        return '0x'+bi
-    else:
-        bi=decrypt(msg[2:])
-    return bi
+        if(msg[:2]!='0x'):
+            bi=encrypt(msg)
+            return '0x'+bi
+        else:
+            bi=decrypt(msg[2:])
+        return bi
   ```
   The encrypt method takes a plain text (ASCII string) as a parameter and performs the encryption according to the [one-time-pad](https://en.wikipedia.org/wiki/One-time_pad) logic.
 
