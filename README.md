@@ -161,9 +161,9 @@
     @bot.message_handler(func=lambda m:True)
     def echo_all(message):	
         try:
-        x=send(message.text)
+          x=send(message.text)
         except:
-        x='Currently only plain texts are supported, check back later for updates!'
+          x='Currently only plain texts are supported, check back later for updates!'
         bot.reply_to(message,x)
 
     @bot.message_handler(func=lambda m:True ,content_types=['document','audio','sticker','photo'])
